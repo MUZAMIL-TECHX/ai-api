@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/ai", "destination": "/api/ai" },
+    { "source": "/ai/:q", "destination": "/api/ai?q=:q" }
+  ]
+}
